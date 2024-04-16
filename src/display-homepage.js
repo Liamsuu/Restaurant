@@ -7,7 +7,8 @@ export default function displayHomepage() {
   mainHeading.textContent = "The Golden";
   const description = document.createElement("p");
   description.textContent =
-    "Our stunning 5* Restaurant has hosted thousands of people over the years. The richest, the most famous have been served here.";
+    "Indulge in an extraordinary culinary journey at The Golden, where sumptuous flavors blend with unparalleled service in an ambiance of timeless elegance. Immerse yourself in the epitome of fine dining, where every moment is a celebration of taste and refinement.";
+  description.id = "main-description";
   const restaurantImg = new Image();
   restaurantImg.src = mainImg;
   restaurantImg.id = "restaurant-img";

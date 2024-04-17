@@ -5,6 +5,11 @@ module.exports = {
   mode: "development",
   devtool: "inline-source-map",
 
+  devServer: {
+    watchFiles: ["./src/index.html"],
+    static: "./dist",
+  },
+
   entry: "./src/index.js",
   output: {
     filename: "bundle.js",
